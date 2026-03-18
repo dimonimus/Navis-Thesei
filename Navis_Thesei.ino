@@ -2,7 +2,7 @@
 #include <DFRobotDFPlayerMini.h>
 #include <U8glib.h>
 #include <avr/wdt.h>
-#include "config_secure.h"          // ← секретный PIN (в .gitignore!)
+#include "config_secure.h"          
 
 U8GLIB_SH1106_128X64 u8g(U8G_I2C_OPT_NO_ACK);
 SoftwareSerial mySerial(2, 3);
